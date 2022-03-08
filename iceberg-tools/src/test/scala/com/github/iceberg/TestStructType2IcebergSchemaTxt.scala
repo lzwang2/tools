@@ -5,6 +5,7 @@ object TestStructType2IcebergSchemaTxt {
   def main(args: Array[String]): Unit = {
     println(StructType2IcebergSchemaTxt.dataTypeSchema(TestStructType.TEST_SCHEMA, 0))
     //The following should be output
+    //final iceberg schema after adjustment, see TestIcebergSchema
     /**
       Types.StructType.of(
       Types.NestedField.optional(1,"string_field",Types.StringType.get),

@@ -4,7 +4,9 @@ import org.apache.spark.sql.types.DataType
 import org.apache.spark.sql.types._
 
 /**
-  * Created by lzwang2 on 2022/03/01.
+ * convert spark sql StructType to text code of iceberg schema
+ * One more step to get the final iceberg schema, see test/scala/com.github.iceberg/TestStructType2IcebergSchemaTxt
+ * Created by lzwang2 on 2022/03/01.
   */
 object StructType2IcebergSchemaTxt {
 
